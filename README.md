@@ -62,8 +62,17 @@ raising an uncaught parsing error.
 
 ## Screenshots
 
-![Sample run](screenshots/sample_run.png)
-![Test results](screenshots/test_results.png)
+These screenshots show actual runs of `python phishing_checker.py` using the
+safe sample URLs documented in the test table:
+
+| Evidence | Screenshot |
+|---|---|
+| Clean sample URL with no listed warning signs | [Sample-result.png](screenshots/Sample-result.png) |
+| IP-address and HTTP warnings with review summary | [Result with warning sign.png](screenshots/Result%20with%20warning%20sign.png) |
+| Clean sample run in the VS Code terminal | [Tested Result.png](screenshots/Tested%20Result.png) |
+
+The complete expected and actual output for all required samples is recorded
+in [tests/test_samples.md](tests/test_samples.md).
 
 ## Improvements
 
