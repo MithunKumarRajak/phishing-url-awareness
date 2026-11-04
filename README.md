@@ -80,6 +80,12 @@ This is an educational tool. It only reads URL text. It does not visit URLs,
 scan for malware, query reputation services, or prove that a URL is safe.
 No warning signs found does **not** mean a URL is safe.
 
+## Internship Context
+
+This project was completed as part of the **AI-Powered Cybersecurity
+Internship** at **EWB Edutech Private Limited**. The internship was virtual,
+Pan India, and scheduled from **September 28, 2026** for one month.
+
 ## Ethical Use
 
 Use the reserved sample strings in the test table. Do not collect credentials,
