@@ -84,7 +84,9 @@ No warning signs found does **not** mean a URL is safe.
 
 This project was completed as part of the **AI-Powered Cybersecurity
 Internship** at **EWB Edutech Private Limited**. The internship was virtual,
-Pan India, and scheduled from **September 28, 2026** for one month.
+Pan India, and scheduled from **September 28, 2026** for one month. The
+opportunity was received through the **National Internship Portal / AICTE
+Portal**.
 
 ## Ethical Use
 
@@ -93,4 +95,6 @@ send phishing messages, scan websites, or test systems without permission.
 
 ## Author
 
-EWB Courses learner
+**Mithun Kumar Rajak**
+
+AI-Powered Cybersecurity Intern, EWB Edutech Private Limited
