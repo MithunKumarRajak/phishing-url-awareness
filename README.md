@@ -56,6 +56,10 @@ Never enter passwords from unexpected links.
 The five required sample results and two extra safety checks are recorded in
 [tests/test_samples.md](tests/test_samples.md).
 
+The checker was also validated with a missing scheme, an over-100-character
+URL, and an invalid port. Malformed input is reported as a result rather than
+raising an uncaught parsing error.
+
 ## Screenshots
 
 ![Sample run](screenshots/sample_run.png)

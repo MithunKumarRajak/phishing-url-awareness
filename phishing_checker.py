@@ -8,6 +8,7 @@ INFO_PREFIXES = (
     "No URL entered.",
     "Could not identify a hostname.",
     "This text is not a valid URL format.",
+    "No listed warning signs found.",
 )
 
 
@@ -20,10 +21,11 @@ def inspect_url(raw_url: str) -> list[str]:
     candidate = url if "://" in url else "http://" + url
     try:
         parsed = urlparse(candidate)
+        host = (parsed.hostname or "").lower()
+        _port = parsed.port
     except ValueError:
         return ["This text is not a valid URL format."]
 
-    host = (parsed.hostname or "").lower()
     if not host:
         return ["Could not identify a hostname."]
 

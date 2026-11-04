@@ -16,6 +16,8 @@ Python version used: 3.11.0 | Operating system: Windows | Date: 2026-11-04
 |---|---|---|---|
 | *(empty input)* | No URL entered | No URL entered. | PASS |
 | `http://[bad` | Clear format error, no crash | This text is not a valid URL format. | PASS |
+| `http://example.com:bad` | Clear format error, no crash | This text is not a valid URL format. | PASS |
+| `https://example.invalid/` + 101 `a` characters | Unusually long URL | Unusually long URL (over 100 characters). | PASS |
 
 ## Notes
 
